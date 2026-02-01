@@ -67,10 +67,20 @@ body{
     transition: background-color 0.5s ease-in-out;
 }
 
-.main__menu-link:hover{
+.main__menu-link:hover {
     background-color: var(--color-menu-hover);
 }
 
-.main__menu-link:visited{
+.main__menu-link:visited {
     color: var(--color-dark);
+}
+
+.recipe__img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recipe__img {
+    border-radius: 10px;
 }
