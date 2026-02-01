@@ -36,13 +36,33 @@ body{
 }
 
 .main__title,
+.recipe__main-title, 
+.recipe__subtitle,
+.recipe__title,
+.recipe__list-title 
+{
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main__title,
 .recipe__main-title {
     font-size: 5rem;
-    text-align: center;
-    padding: 12px;
     background-color: var(--color-title-background);
     color: var(--color-static-white);
-    margin-bottom: 20px;
+}
+
+.recipe__title {
+    font-size: 4rem;
+}
+
+.recipe__subtitle {
+    font-size: 3rem;
+}
+
+.recipe__list-title {
+    font-size: 2.5rem;
 }
 
 .main__menu {
@@ -83,4 +103,14 @@ body{
 
 .recipe__img {
     border-radius: 10px;
+}
+
+.recipe__list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recipe__list-item {
+    width: 60%;
+    margin: 0 auto;
 }
