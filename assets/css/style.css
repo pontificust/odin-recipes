@@ -79,7 +79,8 @@ body{
     padding: 12px;
 }
 
-.main__menu-link {
+.main__menu-link,
+.recipe__link {
     display: block;
     width: 100%;
     color: var(--color-static-white);
@@ -88,11 +89,21 @@ body{
     transition: background-color 0.5s ease-in-out;
 }
 
-.main__menu-link:hover {
+.recipe__link {
+    width: 100px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background-color: var(--color-menu-background);
+    margin-bottom: 20px;
+}
+
+.main__menu-link:hover,
+.recipe__link:hover {
     background-color: var(--color-menu-hover);
 }
 
-.main__menu-link:visited {
+.main__menu-link:visited,
+.recipe__link:visited {
     color: var(--color-dark);
 }
 
