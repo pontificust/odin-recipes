@@ -35,7 +35,8 @@ body{
 
 }
 
-.main__title {
+.main__title,
+.recipe__main-title {
     font-size: 5rem;
     text-align: center;
     padding: 12px;
